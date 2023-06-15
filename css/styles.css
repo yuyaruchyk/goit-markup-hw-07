@@ -68,6 +68,16 @@ button {
 
 /* ----------header-------------- */
 
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+
+}
+
+/*-
+
 .page-header {
   width: 100%;
   border-bottom: 1px solid #e7e9fc;
@@ -114,10 +124,11 @@ button {
 .logo-item {
   color: var(--secondary-text-color);
 }
+-*/
 
-/*--menu--*/
 
-.menu-link {
+
+/*--.menu-link {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -158,7 +169,7 @@ button {
   opacity: 1;
 }
 
-/*--adress--*/
+
 .page-adress {
   font-style: normal;
 }
@@ -180,7 +191,9 @@ button {
 
 .adress-item:focus {
   color: var(--color-hover-focus);
-}
+}--*/
+
+
 
 /*------------Hero----------*/
 .hero {
