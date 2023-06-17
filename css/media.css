@@ -286,6 +286,33 @@
 }
 
 
+/*-------About-US-------*/
+
+.about-us {
+  padding-bottom: 120px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--secondary-text-color);
+}
+
+.about-us-title {
+  margin-bottom: 72px;
+}
+
+.about-us-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: calc(1128- (2+24) / 3);
+}
+
 
 
 
