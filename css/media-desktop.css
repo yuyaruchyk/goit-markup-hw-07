@@ -1,0 +1,168 @@
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+
+    .adress-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .page-adress {
+        margin-left: auto;
+    }
+
+    
+
+    .hero {
+        max-width: 1440px;
+
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero_img/hero_img.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-color: var(--secondary-background-color);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero_img/hero_img@2x.jpg);
+        }
+    }
+
+
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+
+    .about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+         .top-title {
+    
+             text-align: center;
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+         }
+
+                  .top-text {
+                      min-width: 264px;
+                      font-weight: 400;
+                    
+        
+            
+                  }
+
+                
+
+        
+        
+
+            
+
+    .icon-features-container {
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+        border-radius: 4px;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin-bottom: 8px; 
+       
+            }
+
+        
+    
+    .about-list {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+
+        row-gap: 24px;
+    }
+
+    .list-about-item {
+        width: ((100% - 72px) / 4);
+        min-width: 264px;
+    }
+
+    .top-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+
+        color: var(--secondary-text-color);
+    }
+
+    .top-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+        color: var(--primary-text-color);
+    }
+
+    /*-------About-US-------*/
+
+    .about-us {
+        padding-bottom: 120px;
+    }
+
+
+
+    .about-us-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        width: calc(1128- (2+24) / 3);
+    }
+
+
+    /*-------Team-----*/
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+
+    }
+
+    .team-list {
+
+        flex-wrap: nowrap;
+
+        gap: 24px;
+
+
+    }
+
+    .customers-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+    }
+
+
+
+
+
+}
