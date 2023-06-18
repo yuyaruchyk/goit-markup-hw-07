@@ -145,36 +145,30 @@
 
   /*-------About------*/
 
+  .top-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
 
-.top-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-align: left;
+    color: var(--secondary-text-color);
+  }
 
-  
-  color: var(--secondary-text-color);
-}
+  .about-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 72px;
+    gap: 24px;
+  }
 
-.about-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 72px;
-  gap: 24px;
+  .about-list:last-child {
+    margin-right: 0;
+  }
 
-
-}
-
-.about-list:last-child {
-  margin-right: 0;
-}
-
-.list-about-item {
-
-  max-width: 356px;
-}
-
+  .list-about-item {
+    max-width: 356px;
+  }
 }
 
 /*------------------------DESKTOP-------------------------------*/
@@ -223,99 +217,89 @@
     }
   }
 
-
-
-
   .hero-title {
     margin-bottom: 48px;
   }
 
+  .about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .icon-features-container {
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .about-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+
+    row-gap: 24px;
+  }
+
+  .list-about-item {
+    width: ((100% - 72px) / 4);
+    min-width: 264px;
+  }
+
+  .top-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: var(--secondary-text-color);
+  }
+
+  .top-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color);
+  }
+
+  /*-------About-US-------*/
+
+  .about-us {
+    padding-bottom: 120px;
+  }
+
+  .section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: var(--secondary-text-color);
+  }
+
+  .about-us-title {
+    margin-bottom: 72px;
+  }
+
+  .about-us-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: calc(1128- (2+24) / 3);
+  }
 
 
-    .about {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
 
-.icon-features-container {
-  width: 264px;
-  height: 112px;
-  background: #f4f4fd;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
 
-.about-list {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: center;
+
   
-  row-gap: 24px;
-}
-
-
-.list-about-item {
-  width: ((100% - 72px) / 4);
-  min-width: 264px;
-}
-
-
-.top-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-
-
-  color: var(--secondary-text-color);
-}
-
-
-.top-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: var(--primary-text-color);
-}
-
-
-/*-------About-US-------*/
-
-.about-us {
-  padding-bottom: 120px;
-}
-
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-
-  color: var(--secondary-text-color);
-}
-
-.about-us-title {
-  margin-bottom: 72px;
-}
-
-.about-us-list {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  width: calc(1128- (2+24) / 3);
-}
-
-
-
-
-
-
 }
