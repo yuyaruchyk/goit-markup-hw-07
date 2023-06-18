@@ -169,6 +169,49 @@
   .list-about-item {
     max-width: 356px;
   }
+
+    
+
+  /*----Team------*/
+
+    .team {
+      padding-top: 58px;
+      padding-bottom: 134px; }
+
+            
+
+
+                        .team-list {
+                          display: flex;
+                          flex-direction: row;
+                          flex-wrap: wrap;
+                          column-gap: 64px;
+                          gap: 24px;
+                        }
+            
+                        .team-list:last-child {
+                          margin-right: 0;
+                        }
+            
+                        
+/*------Customers-------*/
+
+
+.customers-section {
+  padding-top: 58px;
+  padding-bottom: 96px;
+}
+
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+  
+  
+}
+
+
+
 }
 
 /*------------------------DESKTOP-------------------------------*/
@@ -276,19 +319,7 @@
     padding-bottom: 120px;
   }
 
-  .section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-
-    color: var(--secondary-text-color);
-  }
-
-  .about-us-title {
-    margin-bottom: 72px;
-  }
+  
 
   .about-us-list {
     display: flex;
@@ -297,6 +328,29 @@
     width: calc(1128- (2+24) / 3);
   }
 
+
+  /*-------Team-----*/
+
+   .team   { padding-top: 120px;
+     padding-bottom: 120px;
+  
+  
+     }
+
+         .team-list {
+           
+           flex-wrap: nowrap;
+           
+           gap: 24px;
+         
+
+}
+
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
 
 
 

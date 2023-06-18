@@ -84,11 +84,11 @@ button {
 
         /*------------MOBILE----------------*/
     
-        /*----------Mobile Menu-------------*/
+       
     
        
     
-        /*-------------------------------------------------------*/
+      
     
         @media screen and (min-width: 428px) {
 
@@ -102,7 +102,7 @@ button {
             margin-left: auto;
             margin-right: auto;
           }
-
+ /*----------Mobile Menu-------------*/
 
                      @media screen and (max-width: 767px) {
                        .header-menu {
@@ -222,39 +222,16 @@ button {
                        .mobile-list-contacts-mail:focus {
                          color: var(--color-hover-focus);
                        }
+
+                    
           
-                       .social-media-list {
-                         display: flex;
-          
-                         justify-content: center;
-                         gap: 56px;
-                       }
-          
-                       .social-media-item {
-                         width: 40px;
-                         height: 40px;
-                       }
-          
-                       .social-link {
-                         width: 100%;
-                         height: 100%;
-                         background-color: #4d5ae5;
-                         border-radius: 50%;
-                         display: flex;
-                         align-items: center;
-                         justify-content: center;
-                         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                       }
-          
-                       .social-icon {
-                         fill: var(--icons-color);
-                       }
-          
-                       .social-link:focus {
-                         background-color: #404bbf;
-                       }
+                       
+
+                                                
           
                      }
+
+
     
     
           /*-----Header------*/
@@ -400,7 +377,7 @@ button {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: left;
   color: var(--secondary-text-color);
 }
 
@@ -424,90 +401,165 @@ button {
   .about-us {
     display: none;
   }
+
+
 }
 
 
 /*--------Team---------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-    
-        }
-
-
-
-
-
-
-
-
-/*----------Our-Team--------*/
-
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 
-  background-color: var(--third-background-color);
+  background-color: var(--third-background-color); 
 }
+
 .team-title {
+  text-align: center;
   margin-bottom: 72px;
 }
+
 .team-list {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  gap: 24px;
+  align-items: center;
+ padding-left: 82px;
+  padding-right: 82px;
+
+  
 }
-.team-list:last-child {
-  margin-right: 0;
+
+.name-title {
+  
+    font-size: 20px;
+    line-height: 1.2;
+  margin-bottom: 8px;
+  text-align: center;
+
 }
+
+
+
+
+
 .team-member {
   background-color: var(--background-color-main);
-  width: calc(100% - 3 * 24px);
+  margin-bottom: 72px;
+  
+
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.team-list:last-child {
+  margin-bottom: 0;
+}
+
+
 
 .team-names {
   padding: 32px 16px;
   text-align: center;
 }
 
-.name-title {
-  margin-bottom: 8px;
-}
+
+
 .team-text {
+
+  font-weight: 400;
   margin-bottom: 8px;
 }
 
-/*----------Customers----------*/
-
-.customers-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.customers-list {
+.social-media-list {
   display: flex;
 
   justify-content: center;
+  gap: 56px;
+}
+
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+  fill: var(--icons-color);
+}
+
+.social-link:focus {
+  background-color: #404bbf;
+}
+
+.social-media-team {
   gap: 24px;
 }
 
-.customer-list-item {
-  width: 168px;
-  height: 88px;
+
+
+/*-------Customers--------*/
+
+
+.customers-section {
+ padding-top: 96px;
+  padding-bottom: 96px;
+  
 }
+ .customer-container {
+
+ max-width: 396px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--secondary-text-color);
+}
+
+.about-us-title {
+  margin-bottom: 72px;
+}
+
+
+
+ .customers-list {
+   display: flex;
+  align-items: center;
+    justify-content: center;
+  
+   flex-wrap: wrap;
+   column-gap: 16px;
+   row-gap: 72px;
+ }
+
+ .customers-list:last-child {
+   margin-right: 0;
+ }
+
+ .customer-list-item {
+   width: 168px;
+   height: 88px;
+ }
+
+
 
 .customer-link {
   width: 100%;
@@ -543,6 +595,30 @@ button {
 .customer-title {
   margin-bottom: 72px;
 }
+
+    
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Customers----------*/
+
+
 
 /*--------Footer--------*/
 
