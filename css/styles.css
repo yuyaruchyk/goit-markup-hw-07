@@ -193,8 +193,11 @@ button {
 
 .container {
         max-width: 428px;
-       padding: 0 16px;
+       padding-right: 16px;
+       padding-left: 16px;
        margin: 0 auto;
+       
+       
       }
   /*-----Header------*/
 
@@ -230,6 +233,7 @@ button {
             0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
         }
   .header-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -244,6 +248,7 @@ button {
 
   .hero {
     max-width: 428px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 112px;
@@ -351,10 +356,16 @@ button {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    
+    
   }
 
+  .list-about-item {
+    
+    width: 100%;
+  }
 
 
   .top-title {
@@ -376,9 +387,7 @@ button {
     color: var(--primary-text-color);
   }
 
-  .list-about-item {
-    min-width: 356px;
-  }
+ 
 
   .about-title {
     margin-bottom: 8px;
@@ -560,13 +569,11 @@ margin-left: auto;
   .customer-title {
     margin-bottom: 72px;
   }
-}
 
-/*----------Customers----------*/
 
-/*--------Footer--------*/
 
-.page-footer {
+
+/*--------Footer-.page-footer {
   padding: 100px 0px;
   background-color: var(--secondary-background-color);
 }
@@ -673,7 +680,9 @@ margin-left: auto;
 .icon-send {
   fill: var(--color-title-white);
   margin-left: 16px;
-}
+}-------*/
+
+
 
 /*-------
 

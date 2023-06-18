@@ -2,11 +2,11 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-  }
+  } 
 
     @media screen and (max-width: 1157px) {
-     .team .container, .customers-section .container, .page-footer .container {max-width: 584px;}  {
-        max-width: 768px;
+     .team .container, .customers-section .container, .page-footer .container {max-width: 584px;} 
+      
       }
 
 
