@@ -260,5 +260,8 @@
 
 .modal-window {
   max-width: 408px;
+  padding-bottom: 24px;
+    padding-left: 23px;
+    padding-right: 25px;
 }
 }

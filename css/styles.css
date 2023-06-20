@@ -140,9 +140,13 @@ button {
     gap: 40px;
   }
 
-  .mobile-list-contacts-item {
+    .mobile-list-tel {
+      margin-bottom: 40px;
+    }
+
+  .mobile-list-contacts-mail {
     min-width: 353px;
-    padding-bottom: 40px;
+    padding-bottom: 48px;
   }
 
   .mobile-menu-link {
@@ -179,6 +183,10 @@ button {
   .mobile-list-contacts-tel:focus,
   .mobile-list-contacts-mail:focus {
     color: var(--color-hover-focus);
+  }
+
+  .social-media-list {
+    gap: 56px;
   }
 }
 
@@ -396,6 +404,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 72px;
 }
 
 .name-title {
@@ -409,7 +418,7 @@ button {
   margin-left: auto;
 }
 .team-member {
-  width: 100%;
+  
   margin-left: auto;
   margin-right: auto;
 
@@ -434,8 +443,14 @@ button {
   display: flex;
 
   justify-content: center;
+  
+}
+
+.social-media-team {
   gap: 24px;
 }
+
+
 
 .social-media-item {
   width: 40px;
@@ -602,7 +617,7 @@ button {
 }
 
 .social-media-list-footer {
-  row-gap: 16px;
+  gap: 16px;
 }
 
 .social-media-list:last-child {
@@ -693,7 +708,10 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 72px 24px 24px 24px;
+  padding-top: 72px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
 
   transform: translate(-50%, -50%);
   min-height: 584px;
