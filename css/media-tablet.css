@@ -257,4 +257,8 @@
 
 .subs-btn {margin-top: 0;
 }
+
+.modal-window {
+  max-width: 408px;
+}
 }
