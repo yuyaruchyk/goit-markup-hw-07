@@ -156,7 +156,7 @@
   }
 
   .team-member {
-    width: 264px;
+    width: calc(100% - (3 * 24px));
   }
 
   /*--------Footer------*/
