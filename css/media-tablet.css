@@ -233,6 +233,11 @@
   
 }
 
+.label-footer {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .subs-btn {
   margin-left: 24px;
 }
