@@ -155,6 +155,10 @@
     flex-wrap: nowrap;
   }
 
+  .team-member {
+    width: 264px;
+  }
+
   /*--------Footer------*/
 
   .page-footer {
