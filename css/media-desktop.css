@@ -68,10 +68,7 @@
     line-height: 1.2;
   }
 
-  .top-text {
-    min-width: 264px;
-    font-weight: 400;
-  }
+ 
 
   .icon-features-container {
     width: 264px;
@@ -109,7 +106,7 @@
   }
 
   .top-text {
-    font-weight: 400;
+   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

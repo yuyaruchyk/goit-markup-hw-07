@@ -365,7 +365,7 @@ button {
 }
 
 .top-text {
-  font-weight: 500;
+ font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -409,6 +409,7 @@ button {
 
 .name-title {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   margin-bottom: 8px;
   text-align: center;
@@ -435,7 +436,7 @@ button {
 }
 
 .team-text {
-  font-weight: 400;
+ 
   margin-bottom: 8px;
 }
 
