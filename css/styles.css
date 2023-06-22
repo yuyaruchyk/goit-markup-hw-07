@@ -144,10 +144,7 @@ button {
       margin-bottom: 40px;
     }
 
-  .mobile-list-contacts-mail {
-    min-width: 353px;
-    padding-bottom: 48px;
-  }
+  
 
   .mobile-menu-link {
     display: block;
@@ -163,6 +160,21 @@ button {
     color: var(--color-hover-focus);
   }
 
+    .mobile-menu-link:hover {
+      color: var(--color-hover-focus);
+    }
+  
+  
+    .current.mobile-menu-link {
+      color: var(--color-hover-focus);
+    }
+
+    .mobile-contacts-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+
   .mobile-list-contacts-tel {
     font-weight: 700;
     font-size: 36px;
@@ -172,6 +184,21 @@ button {
     color: var(--secondary-text-color);
   }
 
+    .mobile-list-contacts-tel:focus {
+      
+      color: var(--color-hover-focus);
+    }
+
+        .mobile-list-contacts-tel:hover    {
+    
+          color: var(--color-hover-focus);
+        }
+
+    .current.mobile-list-contacts-tel {
+    
+        color: var(--color-hover-focus);
+      }
+
   .mobile-list-contacts-mail {
     font-weight: 500;
     font-size: 20px;
@@ -180,14 +207,24 @@ button {
     color: var(--primary-text-color);
   }
 
-  .mobile-list-contacts-tel:focus,
-  .mobile-list-contacts-mail:focus {
-    color: var(--color-hover-focus);
-  }
+  
 
   .social-media-list {
     gap: 56px;
   }
+}
+
+
+@media screen and (max-width: 427px) {
+
+  .social-media-list {
+      gap: 24px;
+    }
+
+        .mobile-list-contacts-tel {
+          font-size: 26px;
+        }
+
 }
 
 @media screen and (min-width: 428px) {
@@ -346,7 +383,7 @@ button {
 .about-list {
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  row-gap: 72px;
   align-items: center;
   justify-content: center;
 }
@@ -442,13 +479,16 @@ button {
 
 .social-media-list {
   display: flex;
-
+  margin-left: 0;
   justify-content: center;
+
+  
   
 }
 
 .social-media-team {
   gap: 24px;
+  
 }
 
 
@@ -570,10 +610,11 @@ button {
   align-items: center;
 
   justify-content: center;
-  padding: 0;
+  
 }
 .footer-description {
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .footer-text {
@@ -584,7 +625,7 @@ button {
   letter-spacing: 0.02em;
   max-width: 268px;
   color: var(--footer-text-color);
-  margin-bottom: 72px;
+  
   text-align: start;
 }
 
@@ -614,16 +655,14 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  
 }
 
 .social-media-list-footer {
   gap: 16px;
 }
 
-.social-media-list:last-child {
-  margin-right: 0;
-}
+
 
 .social-link-footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -641,7 +680,7 @@ button {
 .label-footer {
   display: block;
   width: 100%;
-  max-width: 264px;
+  max-width: 398px;
   height: 40px;
   margin-right: auto;
   margin-left: auto;
@@ -654,7 +693,7 @@ button {
   letter-spacing: 0.04em;
   padding-left: 16px;
   width: 100%;
-  max-width: 264px;
+  
   height: 40px;
   margin: 0 auto;
   border: 1px solid #ffffff;
