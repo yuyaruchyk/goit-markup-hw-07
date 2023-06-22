@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-  }
+  } 
 
   @media screen and (max-width: 1199px) {
     .team .container,
@@ -153,7 +153,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   
+
     column-gap: 24px;
   }
 
@@ -179,96 +179,87 @@
     flex-wrap: wrap;
     gap: 64px;
     column-gap: 24px;
-   
   }
 
   .team-list:last-child {
     margin-right: 0;
   }
 
-     .team-member {
-       width: calc((100% - 24px) / 2);
-     }
+  .team-member {
+    width: calc((100% - 24px) / 2);
+  }
 
   /*------Customers-------*/
 
   .customers-section {
     padding-top: 58px;
-    
   }
 
   .customers-list {
-    
     column-gap: 24px;
   }
 
-    .customer-list-item {
-      width: calc((100% - 48px) / 3);
-      
-      height: 88px;
-    }
+  .customer-list-item {
+    width: calc((100% - 48px) / 3);
 
+    height: 88px;
+  }
 
-    /*--------Footer---------*/
+  /*--------Footer---------*/
 
-.footer-container {
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 72px 24px;
-  
-  justify-content: start;
-  align-items: baseline;
-}
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
 
-.footer-subscribe {
-  width: 100%;
-  margin-top: 0;
+    justify-content: start;
+    align-items: baseline;
+  }
 
-  
-}
+  .footer-subscribe {
+    width: 100%;
+    margin-top: 0;
+  }
 
-.footer-text {
-  margin-bottom: 0;
-}
+  .footer-text {
+    margin-bottom: 0;
+  }
 
-.form-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: center;
-  
-  
-}
+  .form-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+  }
 
-.label-footer {
-  margin-right: 0;
-  margin-left: 0;
-  max-width: 264px;
-}
+  .label-footer {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 264px;
+  }
 
+  .footer-description {
+    text-align: start;
+    margin-bottom: 0;
+  }
 
+  .social-media-text-footer {
+    text-align: start;
+  }
 
-.footer-description {
- text-align: start;
- margin-bottom: 0;
-}
+  .social-block {
+    align-items: start;
+    margin-left: 24px;
+  }
 
-.social-media-text-footer {
-  text-align: start;
-}
+  .subs-btn {
+    margin-top: 0;
+  }
 
-.social-block {
-  align-items: start;
-  margin-left: 24px;
-}
-
-.subs-btn {margin-top: 0;
-}
-
-.modal-window {
-  max-width: 408px;
-  padding-bottom: 24px;
+  .modal-window {
+    max-width: 408px;
+    padding-bottom: 24px;
     padding-left: 23px;
     padding-right: 25px;
-}
+  }
 }
